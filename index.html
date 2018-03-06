@@ -5,8 +5,16 @@
     <meta charset="utf-8">
     <title>game</title>
     <style media="screen">
+    body{
+        position: relative;
+    }
     canvas {
         border: 1px black solid;
+    }
+    p{
+        position: absolute;
+        left: 320px;
+        top: 200px;
     }
     </style>
     <script src='game/utils.js'></script>
@@ -22,6 +30,7 @@
 <body>
     <canvas id="id-canvas" width="288" height="590"></canvas>
     <hr>
+    <p>按k可换小鸟颜色，按r重新开始游戏，按j使小鸟飞翔</p>
     <script src="scene/main/main.js"></script>
 
 </body>
